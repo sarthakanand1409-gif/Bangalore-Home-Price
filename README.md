@@ -13,7 +13,7 @@ This repository is divided into three main components:
 ## 🛠️ Tech Stack
 
 * **Machine Learning:** Python, Pandas, NumPy, Scikit-learn, Jupyter Notebook
-* **Backend:** [Specify your backend here, e.g., Python Flask / FastAPI / Node.js]
+* **Backend:** Python Flask 
 * **Frontend:** HTML, CSS, Vanilla JavaScript
 
 ## 🚀 Getting Started
@@ -23,7 +23,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 ### Prerequisites
 Make sure you have the following installed on your system:
 * [Python 3.x](https://www.python.org/)
-* [Add any other prerequisites, like Node.js if you used it]
 
 ### Installation & Setup
 
