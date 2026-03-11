@@ -21,6 +21,12 @@ def serve_static(filename):
     return send_from_directory(CLIENT_DIR, filename)
 
 
+# ---------- Health check (keeps Render from sleeping) ----------
+@app.route('/healthz')
+def healthz():
+    return 'ok', 200
+
+
 # ---------- API endpoints ----------
 @app.route('/get_location_names')
 def get_location_names():
